@@ -5,11 +5,11 @@ package:
 requirements:
         build:
                 - nomkl
-               #- python
+                - python
                 - numpy
         run:
                 - nomkl
-               #- python
+                - python
                 - numpy
 
 build:
