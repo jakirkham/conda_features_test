@@ -1,0 +1,16 @@
+package:
+        name: dep_numpy_a
+        version: 1.0.0
+
+requirements:
+        build:
+                - nomkl
+                - numpy
+        run:
+                - nomkl
+                - numpy
+
+build:
+        number: 0
+        features:
+                - nomkl
